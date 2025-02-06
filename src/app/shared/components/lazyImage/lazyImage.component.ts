@@ -1,8 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'shared-lazy-image',
-  templateUrl: './lazyImage.component.html'
+    selector: 'shared-lazy-image',
+    templateUrl: './lazyImage.component.html',
+    standalone: false
 })
 export class LazyImageComponent implements OnInit {
   @Input()
